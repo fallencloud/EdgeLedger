@@ -1,0 +1,45 @@
+/**********************
+Utilities
+**********************/
+.text-highlight {
+  color: #93cb52;
+}
+
+.primary-btn {
+  background: #93cb52;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background: #7ab436;
+}
+
+#home-section {
+  background: url('../img/showcase.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+  color: #fff;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#what .fas {
+  background: #93cb52;
+  padding: 1rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
